@@ -29,9 +29,9 @@ _______________________________
 
 Event files for [task-FlavorRun1;task-FlavorRun2;task-FlavorRun3;task-FlavorRun4] contain the following variables:
 
-onset: condition onset time in seconds
-duration: condition duration time in seconds
-condition: condition labels. 
+- onset: condition onset time in seconds
+- duration: condition duration time in seconds
+- condition: condition labels. 
 
 	Possible conditions:
 	
@@ -66,7 +66,7 @@ condition: condition labels.
 	Neg4_RatingScreens:		Pleasantness and intensity rating screen for unpleasant beverage stimulus 4
 	Neg4_RinseProcedure:	Rinsing procedure for unpleasant beverage stimulus 4
 
-trial_action: variable containing labels for actions within a complete trial (i.e. a more simplified condition label that groups specific actions per stimulus trial)
+- trial_action: variable containing labels for actions within a complete trial (i.e. a more simplified condition label that groups specific actions per stimulus trial)
 
 	Possible trial actions:
 	
@@ -74,10 +74,10 @@ trial_action: variable containing labels for actions within a complete trial (i.
 	Rating:					Rating screens (self-paced)
 	Rinse:					Rinsing procedure (18.8 sec for a single rinse or 25 sec for a double rinse)
 
-stimulus_trial: numeric variable that numbers the trials within the fMRI task.
-pleasantness_response: perceived pleasantness response of participant (9-point likert scale)
-intensity_response: perceived intensity response of participant (9-point likert scale)
-stimulus_type: categorical variable coding the stimulus type.
+- stimulus_trial: numeric variable that numbers the trials within the fMRI task.
+- pleasantness_response: perceived pleasantness response of participant (9-point likert scale)
+- intensity_response: perceived intensity response of participant (9-point likert scale)
+- stimulus_type: categorical variable coding the stimulus type.
 
 	Possible stimulus types:
 	
@@ -86,18 +86,18 @@ stimulus_type: categorical variable coding the stimulus type.
 	Unpleasant_flavor: Unpleasant flavor
 _______________________________
 
-Event files for [task-images] contain the following variables:
+#Event files for [task-images] contain the following variables:
 
-onset: condition onset time in seconds
-duration: condition duration time in seconds
-condition: condition labels. 
+- onset: condition onset time in seconds
+- duration: condition duration time in seconds
+- condition: condition labels. 
 
 	Possible conditions:
 	
 	ImgXXXX_Image:			Viewing IAPS image XXXX
 	ImgXXXX_RatingScreens:	Pleasantness and intensity rating screen for image XXXX 
 
-trial_action: variable containing labels for actions within a complete trial (i.e. a more simplified condition label that groups specific actions per stimulus trial)
+- trial_action: variable containing labels for actions within a complete trial (i.e. a more simplified condition label that groups specific actions per stimulus trial)
 
 	Possible trial actions:
 	
@@ -105,9 +105,9 @@ trial_action: variable containing labels for actions within a complete trial (i.
 	Rating:	Rating screens (self-paced)
 
 
-stimulus_trial: numeric variable that numbers the trials within the fMRI task.
-pleasantness_response: perceived pleasantness response of participant (9-point likert scale)
-intensity_response: perceived intensity response of participant (9-point likert scale)
+- stimulus_trial: numeric variable that numbers the trials within the fMRI task.
+- pleasantness_response: perceived pleasantness response of participant (9-point likert scale)
+- intensity_response: perceived intensity response of participant (9-point likert scale)
 
 _______________________________
 ## Multi-echo exam card  ##
