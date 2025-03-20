@@ -48,11 +48,13 @@
         "n/a",
         " "
       ]
-    }
+    },
+    "Description": "There should have been a description here, but there wasn't. :("
   },
   "scandate": {
     "LongName": "Date of the fMRI scan session",
-    "Units": "DD-MM-YY"
+    "Units": "DD-MM-YY",
+    "Description": "There should have been a description here, but there wasn't. :("
   },
   "scan_time": {
     "LongName": "Starting time of the fMRI scan session",
